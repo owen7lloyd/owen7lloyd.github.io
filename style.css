@@ -2,15 +2,14 @@
 
 body{
 	margin: 0;
-	font-family: 'Varela Round', sans-serif;
-
+	font-family: 'Varela Round', 'Times New Roman', Georgia, Times, serif;
 }
 
 #home {
 	margin: 0;
 	background-position: center;
 	background-size: cover;
-	background-color: #ffecda;
+	background-color: #FAF0D7;
 	height: 100vh;
 }
 
@@ -26,6 +25,7 @@ h1 {
 	display: inline-block;
 	background-color: white;
 	border: 2px solid black;
+	position: relative;
 	border-radius: 2px;
 }
 
@@ -84,7 +84,8 @@ a {
 
 #footer {
 	height: 7vh;
-	background-color: black;
+	background-color: #101114;
+	color: white;
 }
 
 #profile {
@@ -94,80 +95,153 @@ a {
 
 #diamond {
     position: absolute;
-    top: 15vh;
-    left: 75vw;
-    transform: rotate(-45deg);
+    top: 17vh;
+    right: 63vw;
+    transform: rotate(45deg);
     height: 200px;
     width: 200px;
-    background-color: #8b4f80;
+    background-color: #F4BFBF;
     /* z-index: 0; */
 }
 
 #name {
 	margin-left:3vw;
 	margin-bottom: 0;
+	position: relative;
 }
 
 #profile img {
+ content: url("img/me.png");
  border: 2px solid black;
  margin: auto;
  height: 300px;
  border-radius: 2px;
  overflow: hidden;
  position: absolute;
- left: 70vw;
- top: 20vh;
+ right: 58vw;
+ top: 22vh;
 }
 
+
 #profile:hover {
- content: url("img/me2.png");
+ content: url("img/white_out.jpeg");
  height: 300px;
  overflow: hidden;
  position: absolute;
- left: 70vw;
- top: 20vh;
+ right: 58vw;
+ top: 22vh;
  border: 2px solid black;
  border-radius: 2px;
 }
 
+
 #profile-box{
-	left: 71vw;
-	top: 21.7vh;
-	position:absolute;
-	height: 300px;
-	border-radius: 2px;
-  width: 230px;
-	background-color: #c8e7ed;
+ right: 59vw;
+ top: 20.3vh;
+ position:absolute;
+ height: 300px;
+ border-radius: 2px;
+ width: 220px;
+ background-color: #FFD9C0;
 }
 
+
 #profile2 img {
+ content: url("img/roof.png");
  border: 2px solid black;
  margin: auto;
  height: 250px;
  border-radius: 2px;
  overflow: hidden;
  position: absolute;
- left: 80vw;
- top: 50vh;
+ right: 58vw;
+ top: 60vh;
 }
 
 #profile2:hover {
- content: url("img/me.png");
+ content: url("img/crystal_cove.jpeg");
  height: 250px;
  overflow: hidden;
  position: absolute;
- left: 80vw;
- top: 50vh;
+ right: 58vw;
+ top: 60vh;
  border: 2px solid black;
  border-radius: 2px;
 }
 
 #profile2-box{
-	left: 79vw;
-	top: 61vh;
-	position:absolute;
-	height: 180px;
+ right: 64.5vw;
+ top: 58.3vh;
+ position:absolute;
+ height: 250px;
+ border-radius: 2px;
+ width: 260px;
+ background-color: #8CC0DE;
+}
+
+.highlight {
+	opacity: 0.5;
+	content: '';
+  background-color: #f5c0a2;
+  height: 1.5vh;
+  position: relative;
+  display: block;
+  top: 60px;
+  transform: translateY(-50%);
+  left: 10%;
+  width: 84%;
+}
+
+.typewrite {
+	text-align: center;
+	color: black;
+}
+
+.socials{
+	width: 8vw;
+	height: 5vh;
+	position: fixed;
+	border: 2px solid black;
 	border-radius: 2px;
-  width: 180px;
-	background-color: #bfcfff;
+	left: 5vw;
+	top: 86vh;
+}
+
+.socials a {
+	color: black;
+}
+
+
+#icon-spacing{
+	margin:10px;
+}
+
+#profile-desc {
+	width: 100%;
+	font-size: 1rem;
+	padding-top: 10%;
+	margin: 10%;
+	/* line-height: 1.2em; */
+	max-width: fit-content;
+}
+
+#profile-desc span {
+	position: relative;
+	margin-bottom:20px;
+	display: block;
+	max-width: 100%;
+}
+
+.light {
+	background: rgba(245,215,110,0.5);
+  transition: all linear .2s;
+}
+
+.light:hover{
+	background: rgba(245,215,110,1);
+	transition: all linear .2s;
+}
+
+#profile-desc a{
+  color: black;
 }

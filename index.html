@@ -1,37 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Owen's Page</title>
+	<meta charset='utf-8'>
+	<title>Owen's Page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/378ad4ae00.js" crossorigin="anonymous"></script>
+	<script src="./js/typewriter.js"></script>
 </head>
 <body>
 	<div id="home">
-		<div style="height: 27vh; width: 26vw; position: absolute; left: 9vw; top: 8.5vh; border-radius: 2px; border:2px solid black; background-color: #101114;">
+		<!-- black back -->
+		<div style="height: 29vh; width: 26vw; position: absolute; right: 20vw; top: 8.5vh; border-radius: 2px; border:2px solid black; background-color: #101114;">
 		</div>
-		<div style="height: 27vh; width: 26vw; position: absolute; left: 8vw; top: 7vh; border-color: black; border: 3px solid; border-radius: 2px; background-color: white;">
-			<h1 id="name">Owen Lloyd<span style="font-size: 1.4rem; padding-top: 12px; padding-left: 1.5vw;">ʅʕ•ᴥ•ʔʃ</span></h1>
-			<h1 style="font-size: 0.8rem; display:block; margin-bottom:0px;">Math + Data Science @ Penn State</h1>
-			<h1 style="font-size: 0.8rem; margin-top: 2px; margin-bottom: 0px; display:block;">He/Him</h1>
-			<h1 style="font-size: 0.8rem; margin-top: 2px;display:block; margin-bottom: 15px; ">owen7lloyd [at] gmail [dot] com</h1>
-			<div class="min-button" style="margin-left: 3vw; background-color: #3A5BA0;"><a href="#about"><span>About</span></a></div>
-			<div class="min-button" style="margin: 1vw; margin-top: 0; margin-right: 0;background-color: #FFA500;"><a href="#about"><span>Projects</span></a></div>
-			<div class="min-button" style="margin: 1vw;margin-top:0; background-color: #FFE5B4;"><a href="#about"><span>Resume</span></a></div>
-		</div>
-
-		<div id="diamond"></div>
-		<div id="profile2-box"></div>
-		<div id="profile-box"></div>
-
-		<div>
-			<div id="profile2">
-				<img src="img/me2.jpg">
-			</div>
+		<!-- white front -->
+		<div style="height: 29vh; width: 26vw; position: absolute; right: 19vw; top: 7vh; border-color: black; border: 3px solid; border-radius: 2px; background-color: white;">
+			<h1 id="name">Owen Lloyd</h1>
+			<h1 style="font-size: 0.8rem; display:block; margin-bottom:0px;">🦁 Math + Data Science @ Penn State</h1>
+			<h1 style="font-size: 0.8rem; margin-top: 2px; margin-bottom: 0px; display:block;">🧑🏻‍🦱 He/Him</h1>
+			<h1 style="font-size: 0.8rem; margin-top: 2px;display:block; margin-bottom: 15px; ">📨 owen7lloyd [at] gmail [dot] com</h1>
+			<div class="min-button" style="margin-left: 3vw; background-color: #F4BFBF;"><a href="#about"><span>About</span></a></div>
+			<div class="min-button" style="margin: 1vw; margin-top: 0; margin-right: 0;background-color: #FFD9C0;"><a href="#projects"><span>Projects</span></a></div>
+			<div class="min-button" style="margin: 1vw;margin-top:0; background-color: #8CC0DE;"><a href="#resume"><span>Resume</span></a></div>
 		</div>
 
-		<div>
-			<div id="profile">
-				<img src="img/me.jpg">
-			</div>
+		<!-- pictures -->
+		<section>
+			<div id="diamond"></div>
+			<div id="profile2-box"></div>
+			<div id="profile-box"></div>
+			<div id="profile2"><img></div>
+			<div id="profile"><img></div>
+		</section>
+		
+		<!-- intro -->
+		<div style="height: 50vh; width: 33vw; position: absolute; right: 15vw; top: 45vh; border-color: black; border: 3px solid; border-radius: 2px; background-color: #dcedc2;">
+			<h1 style="width: 100%; position: absolute; display:block">
+				<a href="" class="typewrite" data-period="2000" data-type='[ "Howdy!", " My name is Owen.", "Nice to meet you!"]'>
+					<span class="wrap"></span>
+				</a>
+			</h1>
+				<div id="profile-desc">
+					<span>I'm a junior studying mathematics and data science student at the
+						<a class="light" href="https://www.psu.edu/">Pennsylvania State University</a>
+						in the <a class = "light" href="https://www.shc.psu.edu/">Schreyer Honors College</a>
+						(we are!). This summer, I'm interning at
+						<a class="light" href="https://disneyanimation.com/">Walt Disney Animation Studios</a> on their production analytics team.
+					</span>
+					<span>
+					I am fascinated by sports and elite athletes' ability to rise to any occassion.
+					I sometimes spend a little too much time considering myself an expert film critic, listening to podcasts and solving Rubik's cubes.
+					</span>
+				</div>
+		</div>
+
+		<div class="socials" style="left: 5.2vw; top: 86.5vh; border:2px solid black; background-color: #101114;"></div>
+			<div class="socials" style="background-color: #d4a5a5;">
+				<div style="width:100%; align-content: center;">
+					<a href="files/resume.pdf"><i id="icon-spacing" class="far fa-file-alt"></i></a>
+					<a href="https://github.com/owen7lloyd"><i id="icon-spacing" class="fab fa-github-alt"></i></a>
+					<a href="https://www.linkedin.com/in/owen7lloyd/"><i id="icon-spacing" class="fab fa-linkedin-in"></i></a>
+					<!--
+					<a href="https://instagram.com/imagirlwhocodes"><i id="icon-spacing" class="fab fa-instagram"></i></a>
+					<a href="https://facebook.com/ashley.chu.750"><i id="icon-spacing" class="fab fa-facebook-f"></i></a>
+					-->
+				</div>
 		</div>
 
 	</div>
