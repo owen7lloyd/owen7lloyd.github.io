@@ -106,7 +106,7 @@ a {
 	font-size:40px;
 	text-shadow: 3px 3px 3px;
 	position: absolute;
-	top: 42.7vh;
+	top: 41vh;
 	right: 25vw;
 	padding: 0px;
 	margin: 10px;
@@ -116,6 +116,7 @@ a {
 	border-color:black;
 	border-radius: 4px;
 	text-align: center;
+	height: fit-content;
 }
 
 
@@ -231,6 +232,7 @@ a {
 .typewrite {
 	text-align: center;
 	color: black;
+	right: 1px;
 }
 
 .socials {
@@ -253,14 +255,14 @@ a {
 
 #profile-desc {
 	font-size: 1rem;
-	padding-top: 10%;
-	margin: 10%;
+	padding-top: 8%;
+	margin: 8%;
 	max-width: fit-content;
 }
 
 #profile-desc span {
 	position: relative;
-	margin-bottom:20px;
+	margin-bottom: 20px;
 	display: block;
 	max-width: 100%;
 }
