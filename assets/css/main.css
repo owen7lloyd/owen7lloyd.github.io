@@ -230,7 +230,7 @@ h1 {
   font-weight: bold;
 }
 body {
-  background-color: #e8fdf5;
+  background-color: #fff;
   color: #052d3f;
   overflow-x: hidden;
 }
@@ -319,34 +319,43 @@ section p:last-child {
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
-.news {
+.current_experiences {
   background-color: #fffcd6;
 }
-.news__item-date,
-.news__item-description {
-  display: inline-block;
-  vertical-align: top;
+.old_experiences {
+  background-color: #e8fdf5;
 }
-.news__item-date {
-  font-style: italic;
+.experiences__item-title {
+  font-style: bold;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+  display: inline;
+  text-justify: distribute;
+}
+.experiences__item-date {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1rem;
+  display: inline;
+}
+.experiences__item-description {
   display: block;
-}
-.news__item-description {
   margin-bottom: 10px;
+  text-align: justify;
+  margin-left: 40px;
+  font-size: 0.9rem;
 }
-@media (min-width: 640px) {
-  .news__item-date {
+/* @media (min-width: 640px) {
+  .experiences__item-date {
     width: 15%;
     text-align: right;
     padding-right: 20px;
     display: inline-block;
   }
-  .news__item-description {
+  .experiences__item-description {
     width: 85%;
   }
-}
+} */
 .teaching {
   background-color: #fff;
 }
