@@ -1,192 +1,439 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Owen Lloyd</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="formattedstyle.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/378ad4ae00.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/typewriter.js"></script>
+  </head>
 
-<head>
-	<meta charset='utf-8'>
-	<title>Owen Lloyd</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="formattedstyle.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://kit.fontawesome.com/378ad4ae00.js" crossorigin="anonymous"></script>
-	<script src="./js/typewriter.js"></script>
-</head>
+  <body>
+    <div id="home">
+      <!-- black back -->
+      <div
+        style="
+          height: 29vh;
+          width: 26vw;
+          position: absolute;
+          right: 20vw;
+          top: 8.5vh;
+          border-radius: 2px;
+          border: 2px solid black;
+          background-color: #101114;
+        "
+      ></div>
 
-<body>
-	<div id="home">
-		<!-- black back -->
-		<div style="height: 29vh; width: 26vw; position: absolute; right: 20vw; top: 8.5vh; border-radius: 2px; border:2px solid black; background-color: #101114;"></div>
-		
-		<!-- white front -->
-		<div style="height: 29vh; width: 26vw; position: absolute; right: 19vw; top: 7vh; border-color: black; border: 3px solid; border-radius: 2px; background-color: white;">
-			<h1 id="name">Owen Lloyd</h1>
-			<h1 style="font-size: 0.8rem; display:block; margin-bottom:0px;">🦁 Math + DS @ Penn State</h1>
-			<h1 style="font-size: 0.8rem; margin-top: 2px; margin-bottom: 0px; display:block;">🧑🏻‍🦱 He/Him</h1>
-			<h1 style="font-size: 0.8rem; margin-top: 2px; display:block; margin-bottom: 15px; ">📨 owen7lloyd [at] gmail [dot] com</h1>
-			<div class="min-button" style="margin-left: 3vw; background-color: #F4BFBF;"><a href="#about"><span>About</span></a></div>
-			<div class="min-button" style="margin: 1vw; margin-top: 0; margin-right: 0; background-color: #FFD9C0;"><a href="#projects"><span>Projects</span></a></div>
-			<div class="min-button" style="margin: 1vw; margin-top:0; background-color: #8CC0DE;"><a href="https://elementsofbasketball.com/"><span>Click Me</span></a></div>
-		</div>
+      <!-- white front -->
+      <div
+        style="
+          height: 29vh;
+          width: 26vw;
+          position: absolute;
+          right: 19vw;
+          top: 7vh;
+          border-color: black;
+          border: 3px solid;
+          border-radius: 2px;
+          background-color: white;
+        "
+      >
+        <h1 id="name">Owen Lloyd</h1>
+        <h1 style="font-size: 0.8rem; display: block; margin-bottom: 0px">
+          🦁 Math + DS @ Penn State
+        </h1>
+        <h1
+          style="
+            font-size: 0.8rem;
+            margin-top: 2px;
+            margin-bottom: 0px;
+            display: block;
+          "
+        >
+          🧑🏻‍🦱 He/Him
+        </h1>
+        <h1
+          style="
+            font-size: 0.8rem;
+            margin-top: 2px;
+            display: block;
+            margin-bottom: 15px;
+          "
+        >
+          📨 owen7lloyd [at] gmail [dot] com
+        </h1>
+        <div
+          class="min-button"
+          style="margin-left: 3vw; background-color: #f4bfbf"
+        >
+          <a href="#about"><span>About</span></a>
+        </div>
+        <div
+          class="min-button"
+          style="
+            margin: 1vw;
+            margin-top: 0;
+            margin-right: 0;
+            background-color: #ffd9c0;
+          "
+        >
+          <a href="#projects"><span>Projects</span></a>
+        </div>
+        <div
+          class="min-button"
+          style="margin: 1vw; margin-top: 0; background-color: #8cc0de"
+        >
+          <a href="https://elementsofbasketball.com/"><span>Click Me</span></a>
+        </div>
+      </div>
 
-		<!-- links -->
-		<div style="background-color: #101114; width: 200px;height: 54px; position: absolute; right: 25.5vw; top: 43vh; border-radius: 2px;">
-		</div>
-		<div id="links" style="margin-left: 10wv;">
-			<a href="https://owen7lloyd.github.io/movieJournal">🎥</a>
-			<a href="https://owen7lloyd.github.io/">💻</a>
-			<a href="https://owen7lloyd.github.io/sportsJournal">🏀</a>
-		</div>
+      <!-- links -->
+      <div
+        style="
+          background-color: #101114;
+          width: 200px;
+          height: 54px;
+          position: absolute;
+          right: 25.5vw;
+          top: 43vh;
+          border-radius: 2px;
+        "
+      ></div>
+      <div id="links" style="margin-left: 10wv">
+        <a href="https://owen7lloyd.github.io/movieJournal">🎥</a>
+        <a href="https://owen7lloyd.github.io/">💻</a>
+        <a href="https://owen7lloyd.github.io/sportsJournal">🏀</a>
+      </div>
 
-		<!-- pictures -->
-		<section>
-			<div id="diamond"></div>
-			<div id="profile2-box"></div>
-			<div id="profile-box"></div>
-			<div id="profile2"><img></div>
-			<div id="profile"><img></div>
-		</section>
-		
-		<!-- intro -->
-		<div style="height: fit-content; width: 33vw; position: absolute; right: 15vw; top: 55vh; border-color: black; border: 3px solid; border-radius: 2px; background-color: #dcedc2;">
-			<h1 style="width: 100%; position: absolute; display: inline-block; margin-left: 7.25%; ">
-				<a href="" class="typewrite" data-period="1000" data-type='["Howdy!", "My name is Owen.", "Nice to meet you!"]'><span class="wrap"></span>
-				</a>
-			</h1>
-				<div id="profile-desc">
-					<span>I am a rising senior studying mathematics and data science at the
-						<a class="light" href="https://www.psu.edu/">Pennsylvania State University</a> (we are!)
-						in the <a class = "light" href="https://www.shc.psu.edu/">Schreyer Honors College</a>. This summer, I'm interning at
-						<a class="light" href="https://disneyanimation.com/">Walt Disney Animation Studios</a> on their production analytics team.
-					</span>
-					<span>
-					I am fascinated by sports and elite athletes' ability to rise to any occassion.
-					I sometimes spend a little too much time considering myself an expert film critic, listening to podcasts and solving Rubik's cubes.
-					</span>
-				</div>
-		</div>
+      <!-- pictures -->
+      <section>
+        <div id="diamond"></div>
+        <div id="profile2-box"></div>
+        <div id="profile-box"></div>
+        <div id="profile2"><img /></div>
+        <div id="profile"><img /></div>
+      </section>
 
-		<div class="socials" style="left: 5.2vw; top: 86.5vh; border:2px solid black; background-color: #101114;"></div>
-			<div class="socials" style="background-color: #d4a5a5;">
-				<div style="width:100%; align-content: center;">
-					<a href="files/resume.pdf"><i id="icon-spacing" class="far fa-file-alt"></i></a>
-					<a href="https://github.com/owen7lloyd"><i id="icon-spacing" class="fab fa-github-alt"></i></a>
-					<a href="https://www.linkedin.com/in/owen7lloyd/"><i id="icon-spacing" class="fab fa-linkedin-in"></i></a>
-					<!--
+      <!-- intro -->
+      <div
+        style="
+          height: fit-content;
+          width: 33vw;
+          position: absolute;
+          right: 15vw;
+          top: 55vh;
+          border-color: black;
+          border: 3px solid;
+          border-radius: 2px;
+          background-color: #dcedc2;
+        "
+      >
+        <h1
+          style="
+            width: 100%;
+            position: absolute;
+            display: inline-block;
+            margin-left: 7.25%;
+          "
+        >
+          <a
+            href=""
+            class="typewrite"
+            data-period="1000"
+            data-type='["Howdy!", "My name is Owen.", "Nice to meet you!"]'
+            ><span class="wrap"></span>
+          </a>
+        </h1>
+        <div id="profile-desc">
+          <span
+            >I am a rising senior studying mathematics and data science at the
+            <a class="light" href="https://www.psu.edu/"
+              >Pennsylvania State University</a
+            >
+            (we are!) in the
+            <a class="light" href="https://www.shc.psu.edu/"
+              >Schreyer Honors College</a
+            >. This summer, I'm interning at
+            <a class="light" href="https://disneyanimation.com/"
+              >Walt Disney Animation Studios</a
+            >
+            on their production analytics team.
+          </span>
+          <span>
+            I am fascinated by sports and elite athletes' ability to rise to any
+            occassion. I sometimes spend a little too much time considering
+            myself an expert film critic, listening to podcasts and solving
+            Rubik's cubes.
+          </span>
+        </div>
+      </div>
+
+      <div
+        class="socials"
+        style="
+          left: 5.2vw;
+          top: 86.5vh;
+          border: 2px solid black;
+          background-color: #101114;
+        "
+      ></div>
+      <div class="socials" style="background-color: #d4a5a5">
+        <div style="width: 100%; align-content: center">
+          <a href="files/resume.pdf"
+            ><i id="icon-spacing" class="far fa-file-alt"></i
+          ></a>
+          <a href="https://github.com/owen7lloyd"
+            ><i id="icon-spacing" class="fab fa-github-alt"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/owen7lloyd/"
+            ><i id="icon-spacing" class="fab fa-linkedin-in"></i
+          ></a>
+          <!--
 					<a href="https://www.instagram.com/owen7lloyd/"><i id="icon-spacing" class="fab fa-instagram"></i></a>
 					<a href="https://www.facebook.com/profile.php?id=100008820067843"><i id="icon-spacing" class="fab fa-facebook-f"></i></a>
 					-->
-				</div>
-		</div>
-
-	</div>
-	<div id="about">
-		<div class="desc">
-			<p class="title"><span class="hlight"> About Me </span></p>
-			<p style="font-size: 1rem;">
-				<span style="font-size: 0.95rem; text-align: center; font-style: italic;">I talked a little bit about myself above, but I'll give a little more formal summary of who I am below.</span>
-				<br>
-				<br>
-				As a rising senior at Penn State, I've enjoyed working as a teaching assistant for <a class="lightClass" href="http://personal.psu.edu/users/m/p/mps16/484_22S_syllabus.html">Math 484</a>
-				and being actively part of <a class="lightClass" href="http://www.akpsipsu.com/">Alpha Kappa Psi</a>, 
-				<a class="lightClass" href="http://schreyerconsulting.weebly.com/">Schreyer Consulting Group</a>,
-				and <a class="lightClass" href="https://www.psutennisclub.com/">Travel Club Tennis and Pickleball</a>
-				on campus.
-				<br>
-				<br>
-				In high school I was a highly competitive tennis player, winning the district doubles championship all four
-				years and competing in sectional and national tournaments organized by 
-				<a class="lightClass" href="https://www.usta.com/en/home.html">USTA</a>.
-				During my junior year I began teaching junior tennis clinics and lessons at the 
-				<a class="lightClass" href="https://studentaffairs.psu.edu/facilities-spaces/campus-recreation-facilities/tennis-center">Penn State Tennis Center</a>, 
-				giving me the opportunity to work with kids of a wide variety of ages.
-				<br>
-				<br>
-				I have previously worked as a Data Science intern at 
-				<a class="lightClass" href="https://www.analog.com/en/index.html">Analog Devices</a>
-				on the <a class="lightClass" href="https://otosense.analog.com/">OtoSenseAI</a> 
-				team and as a Data Analytics intern at <a class="lightClass" href="https://www.croptix.solutions/">Croptix</a>. 
-				I am currently working as a Production Analytics intern at <a class="lightClass" href="https://disneyanimation.com/">Walt Disney Animation Studios</a>.
-			</p>
-		</div>
-		<br>
-		<br>
-		<div class="desc" style="background-color: #FAF0D7;">
-			<p class="title"><span class="hlight">What I'm Doing</span></p>
-			<p class="descTitle">Production Analytics Intern, Walt Disney Animation Studios<span style="float: right; font-size: 14px;">May 2022 - Present</span></p>
-			<p class="descText">
-				As a Production Analytics intern I worked to develop a complexity bidding machine learning model and interactive dashboard for the lighting department.
-			</p>
-			<p class="descTitle">Undergraduate Honors Thesis<span style="float: right; font-size: 14px;">Apr 2022 - Present</span></p>
-			<p class="descText">
-				As a part of my coursework in the Schreyer Honors College, I am writing an undergraduate honors thesis.
-				The working title of my thesis is: Stochastic Calculus of Functions with Random Times.
-				I will be working with Dr. Andrew Belmonte over the next year to develop this original work.
-			</p>
-			<p class="descTitle">Vice President of Finance, Alpha Kappa Psi<span style="float: right; font-size: 14px;">Feb 2020 - Present</span></p>
-			<p class="descText">
-				This calendar year I have served on the Executive Board of my co-ed professional business fraternity.
-				As a member of the executive board, I help to develop the professional skills of our inductee class each semester as well as work
-				to find and support opportunities for our fraternity to give back to the local community. 
-				Specifically as the VP of Finance, I oversee the planning and allocation of our fraternity budget, keeping track of our expenses
-				and staying in constant communication with our national office.
-			</p>
-			<br>
-			<br>
-		</div>
-		<div class="desc">
-			<p class="title"><span class="hlight">What I've Done</span></p>
-			<p class="descTitle">Teaching Assistant, PSU Math 484<span style="float: right; font-size: 14px;">Aug 2021 - May 2022</span></p>
-			<p class="descText">
-				I aided in assessing student understanding and performance of Linear Programming topics by grading homework assignments, projects, and exams.
-			</p>
-			<p class="descTitle">Data Science Intern, Croptix<span style="float: right; font-size: 14px;">Sep 2021 - Feb 2022</span></p>
-			<p class="descText">
-				While interning with Croptix, I applied machine learning techniques to develop models to classify 
-				HLB disease in orange and lemon crops using the light spectrum data of citrus leaves. In conjunction with
-				machine learning models, I also developed an algorithm to match groups of leaf measurements to ground truth tree locations
-				based on GPS data, increasing the efficiency and accuracy of generating reports for our customers.
-			</p>
-			<p class="descTitle">Data Science Intern, Analog Devices<span style="float: right; font-size: 14px;">May 2021 - Aug 2021</span></p>
-			<p class="descText">
-				While interning with Analog devices, I designed a machine learning pipeline for fault detection in Renault manufacturing and vehicles based on audio data,
-				leveraging spectral projectors, centroid smoothing models, and random forests to build classification models and visualization tools.
-				To aid with the Renault pipeline, I also helped to develop new smart-chunking systems to allow for only relevant audio to be passed
-				to audio classificaiton pipelines.
-			</p>
-			<p class="descTitle">Program Graduate, Consultant Training Program<span style="float: right; font-size: 14px;">Feb 2020 - May 2020</span></p>
-			<p class="descText">
-				While part of CTP, I learned techniques and strategies to approach consulting solutions and problems.
-				I worked as a part of multiple different teams to deliver advice to classmates and mentors
-				regarding strategy, implementation, and finances in four different real world bussiness contexts.
-			</p>
-		</div>
-		<br>
-		<br>
-		<div class="desc" style="background-color: #FAF0D7; padding-bottom: 30px;">
-			<p class="title" id="projects"><span class="hlight">What I've Built</span></p>
-			<ul>
-				<li class="liItem" style="margin-left: auto; margin-right: auto;">
-					<a href="https://owen7lloyd.github.io/">
-						<div class="boxForm">
-							<img class="proj-img" src="img/site.png">
-							<p>Personal Website</p>
-							<span>This website to show the work and projects I've done.</span>
-							<div class="boxDesc">
-								<span style="border-radius: 4px; color: white;padding: 5px; font-style: normal; font-size: 14px; margin-right: 10px; background-color: #75b79e; ">HTML</span>
-								<span style="border-radius: 4px; color: white;padding: 5px; font-style: normal; font-size: 14px; margin-right: 10px; background-color: #f5b971; ">CSS</span>
-								<span style="border-radius: 4px; color: white;padding: 5px; font-style: normal; font-size: 14px; margin-right: 10px; background-color: #82c4c3; ">JS</span>
-							</div>
-						</div>
-					</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div id="footer">
-		<div style="margin-left: 20vw; color: white; padding-top:2vh;">
-			Inspiration from <a href="https://slim.computer">Sarah Lim</a>
-			<span style="margin-left: 30vw;">Check out my <a href="https://github.com/owen7lloyd" style="font-style: italic;"> source code </a> on Github.</span>
-		</div>
-	</div>
-</body>
-
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="desc">
+        <p class="title"><span class="hlight"> About Me </span></p>
+        <p style="font-size: 1rem">
+          <span
+            style="font-size: 0.95rem; text-align: center; font-style: italic"
+            >I talked a little bit about myself above, but I'll give a little
+            more formal summary of who I am below.</span
+          >
+          <br />
+          <br />
+          As a rising senior at Penn State, I've enjoyed working as a teaching
+          assistant for
+          <a
+            class="lightClass"
+            href="http://personal.psu.edu/users/m/p/mps16/484_22S_syllabus.html"
+            >Math 484</a
+          >
+          and being actively part of
+          <a class="lightClass" href="http://www.akpsipsu.com/"
+            >Alpha Kappa Psi</a
+          >,
+          <a class="lightClass" href="http://schreyerconsulting.weebly.com/"
+            >Schreyer Consulting Group</a
+          >, and
+          <a class="lightClass" href="https://www.psutennisclub.com/"
+            >Travel Club Tennis and Pickleball</a
+          >
+          on campus.
+          <br />
+          <br />
+          In high school I was a highly competitive tennis player, winning the
+          district doubles championship all four years and competing in
+          sectional and national tournaments organized by
+          <a class="lightClass" href="https://www.usta.com/en/home.html">USTA</a
+          >. During my junior year I began teaching junior tennis clinics and
+          lessons at the
+          <a
+            class="lightClass"
+            href="https://studentaffairs.psu.edu/facilities-spaces/campus-recreation-facilities/tennis-center"
+            >Penn State Tennis Center</a
+          >, giving me the opportunity to work with kids of a wide variety of
+          ages.
+          <br />
+          <br />
+          I have previously worked as a Data Science intern at
+          <a class="lightClass" href="https://www.analog.com/en/index.html"
+            >Analog Devices</a
+          >
+          on the
+          <a class="lightClass" href="https://otosense.analog.com/"
+            >OtoSenseAI</a
+          >
+          team and as a Data Analytics intern at
+          <a class="lightClass" href="https://www.croptix.solutions/">Croptix</a
+          >. I am currently working as a Production Analytics intern at
+          <a class="lightClass" href="https://disneyanimation.com/"
+            >Walt Disney Animation Studios</a
+          >.
+        </p>
+      </div>
+      <br />
+      <br />
+      <div class="desc" style="background-color: #faf0d7">
+        <p class="title"><span class="hlight">What I'm Doing</span></p>
+        <p class="descTitle">
+          Production Analytics Intern, Walt Disney Animation Studios<span
+            style="float: right; font-size: 14px"
+            >May 2022 - Present</span
+          >
+        </p>
+        <p class="descText">
+          As a Production Analytics intern I worked to develop a complexity
+          bidding machine learning model and interactive dashboard for the
+          lighting department.
+        </p>
+        <p class="descTitle">
+          Undergraduate Honors Thesis<span style="float: right; font-size: 14px"
+            >Apr 2022 - Present</span
+          >
+        </p>
+        <p class="descText">
+          As a part of my coursework in the Schreyer Honors College, I am
+          writing an undergraduate honors thesis. The working title of my thesis
+          is: Stochastic Calculus of Functions with Random Times. I will be
+          working with Dr. Andrew Belmonte over the next year to develop this
+          original work.
+        </p>
+        <p class="descTitle">
+          Vice President of Finance, Alpha Kappa Psi<span
+            style="float: right; font-size: 14px"
+            >Feb 2020 - Present</span
+          >
+        </p>
+        <p class="descText">
+          This calendar year I have served on the Executive Board of my co-ed
+          professional business fraternity. As a member of the executive board,
+          I help to develop the professional skills of our inductee class each
+          semester as well as work to find and support opportunities for our
+          fraternity to give back to the local community. Specifically as the VP
+          of Finance, I oversee the planning and allocation of our fraternity
+          budget, keeping track of our expenses and staying in constant
+          communication with our national office.
+        </p>
+        <br />
+        <br />
+      </div>
+      <div class="desc">
+        <p class="title"><span class="hlight">What I've Done</span></p>
+        <p class="descTitle">
+          Teaching Assistant, PSU Math 484<span
+            style="float: right; font-size: 14px"
+            >Aug 2021 - May 2022</span
+          >
+        </p>
+        <p class="descText">
+          I aided in assessing student understanding and performance of Linear
+          Programming topics by grading homework assignments, projects, and
+          exams.
+        </p>
+        <p class="descTitle">
+          Data Science Intern, Croptix<span
+            style="float: right; font-size: 14px"
+            >Sep 2021 - Feb 2022</span
+          >
+        </p>
+        <p class="descText">
+          While interning with Croptix, I applied machine learning techniques to
+          develop models to classify HLB disease in orange and lemon crops using
+          the light spectrum data of citrus leaves. In conjunction with machine
+          learning models, I also developed an algorithm to match groups of leaf
+          measurements to ground truth tree locations based on GPS data,
+          increasing the efficiency and accuracy of generating reports for our
+          customers.
+        </p>
+        <p class="descTitle">
+          Data Science Intern, Analog Devices<span
+            style="float: right; font-size: 14px"
+            >May 2021 - Aug 2021</span
+          >
+        </p>
+        <p class="descText">
+          While interning with Analog devices, I designed a machine learning
+          pipeline for fault detection in Renault manufacturing and vehicles
+          based on audio data, leveraging spectral projectors, centroid
+          smoothing models, and random forests to build classification models
+          and visualization tools. To aid with the Renault pipeline, I also
+          helped to develop new smart-chunking systems to allow for only
+          relevant audio to be passed to audio classificaiton pipelines.
+        </p>
+        <p class="descTitle">
+          Program Graduate, Consultant Training Program<span
+            style="float: right; font-size: 14px"
+            >Feb 2020 - May 2020</span
+          >
+        </p>
+        <p class="descText">
+          While part of CTP, I learned techniques and strategies to approach
+          consulting solutions and problems. I worked as a part of multiple
+          different teams to deliver advice to classmates and mentors regarding
+          strategy, implementation, and finances in four different real world
+          bussiness contexts.
+        </p>
+      </div>
+      <br />
+      <br />
+      <div class="desc" style="background-color: #faf0d7; padding-bottom: 30px">
+        <p class="title" id="projects">
+          <span class="hlight">What I've Built</span>
+        </p>
+        <ul>
+          <li class="liItem" style="margin-left: auto; margin-right: auto">
+            <a href="https://owen7lloyd.github.io/">
+              <div class="boxForm">
+                <img class="proj-img" src="img/site.png" />
+                <p>Personal Website</p>
+                <span
+                  >This website to show the work and projects I've done.</span
+                >
+                <div class="boxDesc">
+                  <span
+                    style="
+                      border-radius: 4px;
+                      color: white;
+                      padding: 5px;
+                      font-style: normal;
+                      font-size: 14px;
+                      margin-right: 10px;
+                      background-color: #75b79e;
+                    "
+                    >HTML</span
+                  >
+                  <span
+                    style="
+                      border-radius: 4px;
+                      color: white;
+                      padding: 5px;
+                      font-style: normal;
+                      font-size: 14px;
+                      margin-right: 10px;
+                      background-color: #f5b971;
+                    "
+                    >CSS</span
+                  >
+                  <span
+                    style="
+                      border-radius: 4px;
+                      color: white;
+                      padding: 5px;
+                      font-style: normal;
+                      font-size: 14px;
+                      margin-right: 10px;
+                      background-color: #82c4c3;
+                    "
+                    >JS</span
+                  >
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="footer">
+      <div style="margin-left: 20vw; color: white; padding-top: 2vh">
+        Inspiration from <a href="https://slim.computer">Sarah Lim</a>
+        <span style="margin-left: 30vw"
+          >Check out my
+          <a href="https://github.com/owen7lloyd" style="font-style: italic">
+            source code
+          </a>
+          on Github.</span
+        >
+      </div>
+    </div>
+  </body>
 </html>
