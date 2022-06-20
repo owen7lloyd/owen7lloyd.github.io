@@ -212,8 +212,8 @@ body {
 }
 .font-secondary,
 .header__affiliation,
-.resume__item-links,
-.resume__location,
+.projects__item-links,
+.projects__location,
 .about h3 {
   font-family: "Larsseit", -apple-system, BlinkMacSystemFont, "Futura",
     sans-serif;
@@ -345,62 +345,41 @@ section p:last-child {
   margin-left: 40px;
   font-size: 0.9rem;
 }
-/* @media (min-width: 640px) {
+@media (min-width: 640px) {
   .experiences__item-date {
     width: 15%;
-    text-align: right;
-    padding-right: 20px;
-    display: inline-block;
   }
   .experiences__item-description {
     width: 85%;
   }
-} */
-.teaching {
+}
+.projects {
+  /* margin-bottom: 20px; */
   background-color: #fff;
 }
-.teaching__course {
-  margin-bottom: 20px;
-}
-.teaching__course:last-of-type {
-  margin-bottom: 0;
-}
-.teaching__course-title {
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-.teaching__course-period {
-  margin-bottom: 5px;
-  font-style: italic;
-}
-.teaching__course-link--inactive::after {
-  content: " (to be ported)";
-  font-style: italic;
-}
-.resume {
-  margin-bottom: 20px;
-}
-.resume__item-description,
-.resume__item-summary {
+.projects__item-description,
+.projects__item-summary {
   display: inline-block;
   vertical-align: top;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  text-align: justify;
 }
-.resume__title {
+.projects__item-description {
+  margin-left: 40px;
+  font-size: 0.9em;
+  margin-inline-start: 40px;
+  /* margin-right: 80px; */
+}
+.projects__title {
   font-weight: bold;
   font-size: 1.2rem;
 }
-@media (min-width: 500px) {
-  .resume__title {
-    margin-bottom: 5px;
-  }
-}
-.resume__location {
+.projects__location {
   font-size: 0.8rem;
   letter-spacing: 1px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
-.resume__tag {
+.projects__tag {
   font-family: "Inconsolata", "Consolas", monospace;
   font-size: 0.9rem;
   padding: 1px 4px;
@@ -411,45 +390,46 @@ section p:last-child {
   color: #333;
   background-color: #eaeaea;
 }
-.resume__tag.research {
+.projects__tag.research {
   background-color: #f2c4b7;
   color: #8f5a51;
 }
-.resume__tag.development {
+.projects__tag.development {
   background-color: #83e2cf;
   color: #315951;
 }
-.resume__tag.coursework {
+.projects__tag.coursework {
   background-color: #a0dbfe;
   color: #315951;
 }
-.resume__item-links {
+.projects__item-links {
   letter-spacing: 1px;
   margin-top: 10px;
+  font-size: 1em;
 }
-.resume__item-links .fa {
+.projects__item-links .fa {
   margin-right: 0.5em;
 }
-.resume__item-links > li:not(:last-of-type) {
+.projects__item-links > li:not(:last-of-type) {
   margin-right: 10px;
 }
-@media (min-width: 640px) {
-  .resume__item-description,
-  .resume__item-summary {
+/* @media (min-width: 640px) {
+  .projects__item-description,
+  .projects__item-summary {
     margin-bottom: 60px;
   }
-  .resume__item-description:last-of-type,
-  .resume__item-summary:last-of-type {
+  .projects__item-description:last-of-type,
+  .projects__item-summary:last-of-type {
     margin-bottom: 0;
   }
-  .resume__item-summary {
+  .projects__item-summary {
     width: 30%;
     padding-right: 40px;
   }
-  .resume__item-description {
+  .projects__item-description {
     width: 70%;
   }
-}
+} */
 .header {
   display: flex;
   flex-direction: column;
